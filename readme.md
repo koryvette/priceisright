@@ -16,19 +16,24 @@ This data will show three things:
 * matplotlib
   
     
-## Funtionality  
+## How results were analyzed:  
 The following functionality has been added to this site:
   
-* Data was saved in CSV format (https://github.com/koryvette/priceisright)
-* CSV file was imported to a dataframe using Pandas/python
-* A database was created called priceisright.db
-* The CSV file in Python was used to create a table called Games in the priceisright.db
+* Game data for each game/season was saved in CSV format:  
+  (https://github.com/koryvette/priceisright)  
+* Showcase data was save in CSV format:  
+  (https://raw.githubusercontent.com/koryvette/python/master/project/Showcase_spin.csv)  
+* CSV file was imported to a dataframe using Pandas/python.  
+* A database was created called priceisright.db.  
+* The "output" CSV file in Python was used to create a table called Games in the priceisright.db.  
+* The "Showcase_spin" CSV file in Python was used to create a table called Showcase in the priceisright.db.  
+* SQL was used to get the total wins, losses, and total games played by season.  
+* SQL was also used to total the wins, losses and total times played by each game per season.
+* Finally, SQL was also used to total the number of wins for each spinner in the Showcase Showdown.
+
+* Results from the three SQL queries were graphed using Matplotlib.  
 *   
-* JQuery was also used to filter the event list  
-* Form at bottom of page allows user to add an event (although not posted to database)  
-* This site is also available through github/pages using the link below:  
-  https://koryvette.github.io/eventcalendar
-* Testing was done on the github/pages link to ensure various screen sizes and browsers were functional.
+*  
 
 
 
