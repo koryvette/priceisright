@@ -10,6 +10,8 @@ This data will show three things:
   
   
 ## Packages you will need:
+* Anaconda
+* Jupiter Notebook
 * requests  
 * numpy  
 * sqlite3
