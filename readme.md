@@ -6,7 +6,7 @@ In the Price is Right, there are certain games that offer a better chance of win
 This data will show three things:  
 * Which year that had the greatest winning percentage?  
 * What game has had the highest winning percentage?  
-* Which spinner in the showcase showdown was most successful?  
+* Which spinner in the Showcase Showdown was most successful?  
   
   
 ## Packages you will need:
@@ -32,9 +32,14 @@ The following functionality has been added to this site:
 * Finally, SQL was also used to total the number of wins for each spinner in the Showcase Showdown.
 
 * Results from the three SQL queries were graphed using Matplotlib.  
-*   
-*  
 
-
+## Instructions for running the file: 
+* download the files from the following repository from Github:  
+  https://github.com/koryvette/priceisright  
+* Open the file "Price Is Right statistics with Python.ipnyb" in Jupiter Notebook (using Anaconda)  
+* Click RUN for each cell within the script.  
+* As you run each cell, you should begin to see the data take shape.  The results of the graphs are printed below each graph.  
+* There are more cells than are necessary.  Some items were added to show the results before being graphed.  others were 
+  displayed to show that data was imported.
 
 
