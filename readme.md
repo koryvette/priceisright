@@ -17,7 +17,6 @@ This data will show three things:
   
     
 ## How results were analyzed:  
-The following functionality has been added to this site:
   
 * Game data for each game/season was saved in CSV format:  
   (https://github.com/koryvette/priceisright)  
@@ -34,12 +33,11 @@ The following functionality has been added to this site:
 * Results from the three SQL queries were graphed using Matplotlib.  
 
 ## Instructions for running the file: 
-* download the files from the following repository from Github:  
+* Download the files from the following repository from Github:  
   https://github.com/koryvette/priceisright  
 * Open the file "Price Is Right statistics with Python.ipnyb" in Jupiter Notebook (using Anaconda)  
 * Click RUN for each cell within the script.  
 * As you run each cell, you should begin to see the data take shape.  The results of the graphs are printed below each graph.  
-* There are more cells than are necessary.  Some items were added to show the results before being graphed.  others were 
-  displayed to show that data was imported.
+* There are probably more cells than are necessary.  Some items were added to show the results before being graphed.  Others were displayed to show that data was imported.
 
 
